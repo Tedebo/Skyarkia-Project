@@ -1,0 +1,128 @@
+Mono path[0] = 'C:/Projects/skyarkia/Skyarkia-Project/projectsky_Data/Managed'
+Mono path[1] = 'C:/Projects/skyarkia/Skyarkia-Project/projectsky_Data/Mono'
+Mono config path = 'C:/Projects/skyarkia/Skyarkia-Project/projectsky_Data/Mono/etc'
+PlayerConnection initialized from C:/Projects/skyarkia/Skyarkia-Project/projectsky_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55026
+Multi-casting "[IP] 192.168.0.24 [Port] 55026 [Flags] 2 [Guid] 1839026866 [EditorId] 85468292 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-95K4FRR) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55026]
+PlayerConnection already initialized - listening to [0.0.0.0:55026]
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   23.21.13.9135
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Projects\skyarkia\Skyarkia-Project\projectsky_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Projects\skyarkia\Skyarkia-Project\projectsky_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Projects\skyarkia\Skyarkia-Project\projectsky_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Projects\skyarkia\Skyarkia-Project\projectsky_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Projects\skyarkia\Skyarkia-Project\projectsky_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Projects\skyarkia\Skyarkia-Project\projectsky_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Projects\skyarkia\Skyarkia-Project\projectsky_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Projects\skyarkia\Skyarkia-Project\projectsky_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Projects\skyarkia\Skyarkia-Project\projectsky_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Projects\skyarkia\Skyarkia-Project\projectsky_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Projects\skyarkia\Skyarkia-Project\projectsky_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Projects\skyarkia\Skyarkia-Project\projectsky_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  2.030 seconds
+Platform assembly: C:\Projects\skyarkia\Skyarkia-Project\projectsky_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Projects\skyarkia\Skyarkia-Project\projectsky_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.081160 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 67c -> priority: 1 
+  Thread -> id: 25d4 -> priority: 1 
+The prefab 'Player_Prefab' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEngine.Networking.NetworkScene:RegisterPrefab(GameObject) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkScene.cs:135)
+UnityEngine.Networking.ClientScene:RegisterPrefab(GameObject) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:440)
+UnityEngine.Networking.NetworkManager:RegisterClientMessages(NetworkClient) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:377)
+UnityEngine.Networking.NetworkManager:ConnectLocalClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:552)
+UnityEngine.Networking.NetworkManager:StartHost() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:540)
+UnityEngine.Networking.NetworkManagerHUD:OnGUI() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManagerHUD.cs:80)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkScene.cs Line: 135)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+The tree Tree_Prefab couldn't be instanced because the prefab contains no valid mesh renderer.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Terrain/TreeDatabase.cpp Line: 160)
+
+UnloadTime: 4.835163 ms
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/TerrainPhysics/TerrainCollider.cpp Line: 185)
+
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/TerrainPhysics/TerrainCollider.cpp Line: 185)
+
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/TerrainPhysics/TerrainCollider.cpp Line: 185)
+
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/TerrainPhysics/TerrainCollider.cpp Line: 185)
+
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/TerrainPhysics/TerrainCollider.cpp Line: 185)
+
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/TerrainPhysics/TerrainCollider.cpp Line: 185)
+
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/TerrainPhysics/TerrainCollider.cpp Line: 185)
+
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/TerrainPhysics/TerrainCollider.cpp Line: 185)
+
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/TerrainPhysics/TerrainCollider.cpp Line: 185)
+
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/TerrainPhysics/TerrainCollider.cpp Line: 185)
+
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/TerrainPhysics/TerrainCollider.cpp Line: 185)
+
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/TerrainPhysics/TerrainCollider.cpp Line: 185)
+
+The prefab 'Player_Prefab' has multiple NetworkIdentity components. There can only be one NetworkIdentity on a prefab, and it must be on the root object.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEngine.Networking.NetworkScene:RegisterPrefab(GameObject) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkScene.cs:135)
+UnityEngine.Networking.ClientScene:RegisterPrefab(GameObject) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:440)
+UnityEngine.Networking.NetworkManager:RegisterClientMessages(NetworkClient) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:377)
+UnityEngine.Networking.NetworkManager:FinishLoadScene() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:713)
+UnityEngine.Networking.NetworkManager:UpdateScene() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:754)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1090)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkScene.cs Line: 135)
+
+System memory in use before: 103.7 MB.
+System memory in use after: 79.9 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1413.
+Total: 3.880681 ms (FindLiveObjects: 0.104978 ms CreateObjectMapping: 0.036654 ms MarkObjects: 0.387071 ms  DeleteObjects: 3.349631 ms)
+
